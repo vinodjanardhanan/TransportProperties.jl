@@ -1,0 +1,13 @@
+name = "TransportProperties"
+uuid = "5257e33d-5a01-4fd1-9680-e504fee35d5b"
+authors = ["Vinod Janardhanan"]
+version = "0.1.0"
+
+[compat]
+julia = "1.7.3"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
