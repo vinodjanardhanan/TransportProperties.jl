@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<trans>
+	<gasphase>CH4 H2O H2 CO CO2 O2 N2</gasphase>
+	<molefractions>CH4=0.125, H2O=0.252, CO2=0.084, N2=0.539</molefractions>
+	<T>1073.15</T>
+	<p>1e5</p>
+</trans>

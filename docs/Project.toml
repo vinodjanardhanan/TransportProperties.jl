@@ -1,3 +1,4 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+LightXML = "9c8b4983-aa76-5018-a973-4c85ecc9e179"
 TransportProperties = "5257e33d-5a01-4fd1-9680-e504fee35d5b"
