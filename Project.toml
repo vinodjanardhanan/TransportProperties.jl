@@ -1,7 +1,7 @@
 name = "TransportProperties"
 uuid = "5257e33d-5a01-4fd1-9680-e504fee35d5b"
 authors = ["Vinod Janardhanan"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 IdealGas = "7aa10a8e-8b87-4952-8d6b-aae44b8b139e"

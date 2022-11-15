@@ -334,9 +334,9 @@ function D_ij(sp_trd::Array{TransportData}, T::Float64, p::Float64, molwt::Array
             D[j,k] = const_term * sqrt(1/m_jk)/(σ[j,k]^2*Ω11[k])
             D[k,j] = D[j,k]
         end
-        # Uncomment the following two lines to print the self diffusion coefficients
-        # m_jj = 0.5*molwt[j]
-        # D[j,j] = const_term * sqrt(1/m_jj)/(σ[j,j]^2*Ω11[j])
+        # Following two lines calculate the self diffusion coefficients
+        m_jj = 0.5*molwt[j]
+        D[j,j] = const_term * sqrt(1/m_jj)/(σ[j,j]^2*Ω11[j])
     end
     
    return D
@@ -526,7 +526,7 @@ function transport_properties(file_path::AbstractString, lib_dir::AbstractString
     end
     bdc =  D_ij(sp_tr_data,T,p,thermo_all.molwt)
     println("\nBinary diffusion coefficients:")
-    println("Note: self diffusion coefficients are not printed below:")
+    # println("Note: self diffusion coefficients are not printed below:")
     println("-----------------------------------")  
     for j in 1:length(gasphase)
         @printf("\t%11s",gasphase[j])

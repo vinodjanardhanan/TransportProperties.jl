@@ -42,7 +42,7 @@ using LightXML, RxnHelperUtils, IdealGas
 
     @testset "Testing binary diffusion coefficients" begin
         bdc =  D_ij(sp_tr_data,T,p,thermo_all.molwt)
-        @test bdc[1] == 0.0
+        @test 2.1000e-04 < bdc[1] < 2.2407e-04
     end
 
     @testset "Testing mixture diffusion coefficients method-2" begin
