@@ -1,7 +1,7 @@
 name = "TransportProperties"
 uuid = "5257e33d-5a01-4fd1-9680-e504fee35d5b"
 authors = ["Vinod Janardhanan"]
-version = "0.1.4"
+version = "0.1.5"
 
 [deps]
 IdealGas = "7aa10a8e-8b87-4952-8d6b-aae44b8b139e"
@@ -12,10 +12,11 @@ RxnHelperUtils = "58b8660e-aa37-4837-a287-8893ee0015f8"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 
 [compat]
-IdealGas = "0.2.1"
-LightXML = "0.9.1"
+IdealGas = "0.2.2"
+LightXML = "0.9.2"
 RxnHelperUtils = "1.0.3"
-StaticArrays = "1.9.7"
+StaticArrays = "1.9.14"
+LinearAlgebra = "1.11.0"
 julia = "1.9.1"
 
 [extras]
