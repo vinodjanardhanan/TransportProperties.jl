@@ -16,7 +16,7 @@ IdealGas = "0.2.3"
 LightXML = "0.9.2"
 RxnHelperUtils = "1.0.3"
 StaticArrays = "1.9.14"
-julia = "1.9.1"
+julia = "1.10.10"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
